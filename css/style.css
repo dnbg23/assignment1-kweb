@@ -35,12 +35,25 @@ header{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
-header .logo{
+.logo{
     font-size: 3rem;
     color: #333;
     font-weight: bolder;
 }
 
-header .logo span{
+.logo span{
     color: var(--green);
 }
+
+.navbar a {
+    font-size: 1.5rem;
+    color: #333;
+    margin-left: 2rem;
+}
+
+.icons a {
+    font-size: 1.5rem;
+    color: #333;
+    margin-left: 2rem;
+}
+
