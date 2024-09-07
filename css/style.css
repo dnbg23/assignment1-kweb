@@ -21,6 +21,21 @@ html{
     overflow-x: hidden;
 }
 
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background-color: var(--green);
+}
+
 header{
     position: fixed;
     top: 0;
@@ -35,25 +50,84 @@ header{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
-.logo{
+header .logo{
     font-size: 3rem;
     color: #333;
     font-weight: bolder;
 }
 
-.logo span{
+header .logo span{
     color: var(--green);
 }
 
-.navbar a {
-    font-size: 1.5rem;
+header .navbar a {
+    font-size: 2rem;
+    padding: 0 1.5rem;
     color: #333;
     margin-left: 2rem;
 }
 
-.icons a {
-    font-size: 1.5rem;
-    color: #333;
-    margin-left: 2rem;
+header .navbar a:hover{
+    color:var(--green);
 }
 
+header .icons a {
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+    color: var(--green);
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: 1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background: url(../images/home-bg.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 0 2rem;
+}
+
+.home .content{
+    max-width: 50rem;
+    margin-left: 2rem;
+    color: #333;
+    text-align: left;
+}
+
+.home .content h3{
+    font-size: 5rem;
+    color: #333;
+}
+
+.home .content span{
+    font-size: 1.8rem;
+    color: var(--green);
+    display: block;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.home .content p{
+    font-size: 1.3rem;
+    color: #999;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
