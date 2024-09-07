@@ -315,6 +315,7 @@ header .fa-bars{
     color: #666;
     font-size: 1.5rem;
     padding: 1rem 0;
+    text-transform: none;
 }
 
 .footer .box-container .box a:hover{
@@ -336,10 +337,12 @@ header .fa-bars{
     color: #333;
     border-top: .1rem solid rgba(0,0,0,.1);
     margin: 0 5rem;
+    text-transform: none;
 }
 
 .footer .credit span{
     color: var(--green);
+    text-transform: none;
 }
 
 
