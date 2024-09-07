@@ -345,6 +345,55 @@ header .fa-bars{
     text-transform: none;
 }
 
+.cart {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.cart h1 {
+    font-size: 3rem;
+    color: #333;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--green);
+    margin-bottom: 2rem;
+}
+
+#cart-items {
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+#cart-items div {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#cart-total {
+    text-align: right;
+    font-size: 2rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+
+
 
 
 
