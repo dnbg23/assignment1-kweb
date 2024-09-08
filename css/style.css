@@ -363,6 +363,48 @@ header .fa-bars{
     margin-bottom: 2rem;
 }
 
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px ;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.item-name {
+    flex: 1;
+}
+
+.item-quantity {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.quantity-btn {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+.quantity-btn:hover {
+    color: #4a90e2;
+}
+
+.quantity {
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+.item-price {
+    margin-left: auto;
+    font-size: 1.2em;
+}
+
 #cart-items {
     margin-bottom: 2rem;
     color: #333;

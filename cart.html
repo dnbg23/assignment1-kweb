@@ -12,7 +12,20 @@
 <body>
     <section class="cart">
         <h1>My Cart</h1>
-        <div id="cart-items"></div>
+        <div id="cart-items">
+            <div class="cart-item">
+                <span class="item-name">Item Name</span>
+                <span class="item-quantity">
+                    <button class="quantity-btn" data-action="decrease">
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn" data-action="increase">
+                        <i class="fas-fa-plus"></i>
+                    </button>
+                </span>
+            </div>
+        </div>
         <div id="cart-total"></div>
         <a href="checkout.html" class="btn">Proceed to Checkout</a>
         <a href="index.html" class="btn">Continue Shopping</a>
